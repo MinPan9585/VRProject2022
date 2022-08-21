@@ -6,11 +6,11 @@ public class muzhuang : MonoBehaviour
 {
 
     public Animator anim;
-    public void OntriggerEnter(Collider other)
+    public void OnTriggerEnter(Collider other)
     {
       if(other.gameObject.tag == "hand")
       {
-        anim.SetBool("drum1",true);
+        anim.SetTrigger("drum3");
       }
     }
 }
