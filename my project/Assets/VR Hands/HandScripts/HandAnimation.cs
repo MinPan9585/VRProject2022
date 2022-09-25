@@ -25,7 +25,19 @@ public class HandAnimation : MonoBehaviour
 
     private void GripRelease(InputAction.CallbackContext obj) => animator.SetFloat("Grip", 0f);
 
-    private void Pinching(InputAction.CallbackContext obj) => animator.SetFloat("Pinch", obj.ReadValue<float>());
+    private void Pinching(InputAction.CallbackContext obj){
+        animator.SetFloat("Pinch", obj.ReadValue<float>());
+
+        // if(Physics.Raycast())
+        // {
+        //     if(hit.tag == "Muzhuang"){
+        //         SceneManagement.LoadScene("Muzhuang");
+        //     }
+                // if(hit.tag == "tengman"){
+
+                // }
+        // }            
+    }
 
     private void PinchRelease(InputAction.CallbackContext obj) => animator.SetFloat("Pinch", 0f);
 
