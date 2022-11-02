@@ -9,7 +9,7 @@ public class MenuPlant : MonoBehaviour
         //print("hit something");
         if(other.gameObject.CompareTag("hand")){
             //print("hit hand");
-            SceneManager.LoadScene("Scene1009");
+            SceneManager.LoadScene("Scene1021");
         }
     }
 }

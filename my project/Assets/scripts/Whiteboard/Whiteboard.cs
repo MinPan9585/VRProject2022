@@ -13,6 +13,4 @@ public class Whiteboard : MonoBehaviour
         tex = new Texture2D((int)texSize.x, (int)texSize.y);
         r.material.mainTexture = tex;
     }
-
-    
 }

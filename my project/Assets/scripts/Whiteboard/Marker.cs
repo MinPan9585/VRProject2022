@@ -52,9 +52,11 @@ public class Marker : MonoBehaviour
                 }
 
                 if(hitLastFrame){
-                    whiteboard.tex.SetPixels(x,y,penSize,penSize,colors);
 
-                    for(float f = 0.01f; f < 1.00f; f+= 0.02f){
+                    float distanceRate =  1 - hit.distance / tipHeight;
+                    whiteboard.tex.SetPixels(x,y,(int)((float)penSize*distanceRate),(int)((float)penSize*distanceRate),colors);
+
+                    for(float f = 0.01f; f < 1.00f; f+= 0.005f){
                         var lerpX = (int)Mathf.Lerp(lastHitPos.x,x,f);
                         var lerpY = (int)Mathf.Lerp(lastHitPos.y,y,f);
                         whiteboard.tex.SetPixels(lerpX,lerpY,penSize,penSize,colors);

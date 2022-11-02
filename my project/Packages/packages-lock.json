@@ -39,7 +39,7 @@
     },
     "com.unity.ide.rider": {
       "version": "3.0.15",
-      "depth": 0,
+      "depth": 1,
       "source": "registry",
       "dependencies": {
         "com.unity.ext.nunit": "1.0.6"
@@ -83,6 +83,15 @@
       "depth": 1,
       "source": "registry",
       "dependencies": {},
+      "url": "https://packages.unity.cn"
+    },
+    "com.unity.postprocessing": {
+      "version": "3.2.2",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.modules.physics": "1.0.0"
+      },
       "url": "https://packages.unity.cn"
     },
     "com.unity.render-pipelines.core": {
@@ -138,16 +147,6 @@
       },
       "url": "https://packages.unity.cn"
     },
-    "com.unity.terrain-tools": {
-      "version": "4.0.3",
-      "depth": 0,
-      "source": "registry",
-      "dependencies": {
-        "com.unity.modules.terrain": "1.0.0",
-        "com.unity.modules.terrainphysics": "1.0.0"
-      },
-      "url": "https://packages.unity.cn"
-    },
     "com.unity.test-framework": {
       "version": "1.1.31",
       "depth": 0,
@@ -199,38 +198,6 @@
         "com.unity.modules.imgui": "1.0.0"
       }
     },
-    "com.unity.visualscripting": {
-      "version": "1.7.8",
-      "depth": 0,
-      "source": "registry",
-      "dependencies": {
-        "com.unity.ugui": "1.0.0",
-        "com.unity.modules.jsonserialize": "1.0.0"
-      },
-      "url": "https://packages.unity.cn"
-    },
-    "com.unity.xr.arcore": {
-      "version": "4.2.3",
-      "depth": 0,
-      "source": "registry",
-      "dependencies": {
-        "com.unity.xr.arsubsystems": "4.2.3",
-        "com.unity.xr.management": "4.0.1",
-        "com.unity.modules.androidjni": "1.0.0",
-        "com.unity.modules.unitywebrequest": "1.0.0"
-      },
-      "url": "https://packages.unity.cn"
-    },
-    "com.unity.xr.arsubsystems": {
-      "version": "4.2.3",
-      "depth": 1,
-      "source": "registry",
-      "dependencies": {
-        "com.unity.subsystemregistration": "1.1.0",
-        "com.unity.xr.management": "4.0.1"
-      },
-      "url": "https://packages.unity.cn"
-    },
     "com.unity.xr.core-utils": {
       "version": "2.0.0",
       "depth": 1,
@@ -279,7 +246,7 @@
       "url": "https://packages.unity.cn"
     },
     "com.unity.xr.picoxr": {
-      "version": "file:C:/VR2022/Pico Unity Integration SDK-2.0.5",
+      "version": "file:C:/Users/Admin/Downloads/UnityXR_v2.0.3_B51/UnityXR_v2.0.3_B51",
       "depth": 0,
       "source": "local",
       "dependencies": {
@@ -287,14 +254,6 @@
         "com.unity.ugui": "1.0.0",
         "com.unity.subsystemregistration": "1.0.6",
         "com.unity.xr.interaction.toolkit": "0.9.4-preview"
-      }
-    },
-    "com.unity.xr.sdk.displaysample": {
-      "version": "file:C:/VR2022/unity-xr-sdk-v1/Samples/Packages/com.unity.xr.sdk.displaysample",
-      "depth": 0,
-      "source": "local",
-      "dependencies": {
-        "com.unity.xr.management": "3.0.4"
       }
     },
     "com.unity.modules.ai": {
